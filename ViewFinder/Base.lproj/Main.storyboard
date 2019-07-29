@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bje-lD-4VW">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <tableViewController id="oZY-kX-ZES" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8Zn-3Z-oB3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mHS-RV-EjY" id="RkO-Hh-JHL">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -50,55 +50,46 @@
         <!--Add New Photo-->
         <scene sceneID="Gb8-0e-JdN">
             <objects>
-                <viewController id="O8B-D1-eB2" sceneMemberID="viewController">
+                <viewController id="O8B-D1-eB2" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qks-tn-oRq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6M-eN-VTG">
-                                <rect key="frame" x="180" y="433" width="54" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6M-eN-VTG">
+                                <rect key="frame" x="288" y="508" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Camera"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7U-DI-NSh">
-                                <rect key="frame" x="161" y="291" width="92" height="30"/>
-                                <state key="normal" title="Photo Library"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RtX-ja-sPw">
-                                <rect key="frame" x="190" y="365" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RtX-ja-sPw">
+                                <rect key="frame" x="190" y="341" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B0O-Y7-19M">
-                                <rect key="frame" x="190" y="327" width="25" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B0O-Y7-19M">
+                                <rect key="frame" x="116" y="391" width="183" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="7fs-Rx-goH">
-                                <rect key="frame" x="115.5" y="473" width="183" height="276"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="7fs-Rx-goH">
+                                <rect key="frame" x="116" y="69" width="183" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7U-DI-NSh">
+                                <rect key="frame" x="76" y="508" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Photo Library"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="e6M-eN-VTG" firstAttribute="centerY" secondItem="Qks-tn-oRq" secondAttribute="centerY" id="2a6-S6-ua7"/>
-                            <constraint firstItem="RtX-ja-sPw" firstAttribute="top" secondItem="B0O-Y7-19M" secondAttribute="bottom" constant="8" symbolic="YES" id="8pi-Dh-Whl"/>
-                            <constraint firstItem="Q7U-DI-NSh" firstAttribute="top" secondItem="zgL-QZ-no1" secondAttribute="top" constant="203" id="9Vd-Fv-7Pg"/>
-                            <constraint firstItem="7fs-Rx-goH" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="AcN-ih-1Dt"/>
-                            <constraint firstItem="Q7U-DI-NSh" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="B3F-So-mXt"/>
-                            <constraint firstItem="e6M-eN-VTG" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="NM6-Oj-gRb"/>
-                            <constraint firstItem="RtX-ja-sPw" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="RFr-UM-DWQ"/>
-                            <constraint firstItem="7fs-Rx-goH" firstAttribute="top" secondItem="RtX-ja-sPw" secondAttribute="bottom" constant="24" id="c8d-Xy-WRa"/>
-                            <constraint firstItem="B0O-Y7-19M" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="dJk-uz-0Oy"/>
-                            <constraint firstItem="B0O-Y7-19M" firstAttribute="top" secondItem="Q7U-DI-NSh" secondAttribute="bottom" constant="6" id="lTn-0w-Bgc"/>
-                            <constraint firstItem="7fs-Rx-goH" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="mC2-SR-ZdF"/>
-                            <constraint firstItem="e6M-eN-VTG" firstAttribute="centerX" secondItem="Qks-tn-oRq" secondAttribute="centerX" id="xuU-ok-79E"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zgL-QZ-no1"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="Ebg-3U-uMy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eok-yH-WtW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1849" y="119"/>
+            <point key="canvasLocation" x="1847.826086956522" y="118.20652173913044"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mtP-Wa-NVD">
@@ -106,7 +97,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bje-lD-4VW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FoH-sM-aQZ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
