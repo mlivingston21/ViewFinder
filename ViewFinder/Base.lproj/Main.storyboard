@@ -13,7 +13,7 @@
         <!--ViewFinder-->
         <scene sceneID="JS3-gB-ZVg">
             <objects>
-                <tableViewController id="oZY-kX-ZES" sceneMemberID="viewController">
+                <tableViewController id="oZY-kX-ZES" customClass="PhotoTableViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8Zn-3Z-oB3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
