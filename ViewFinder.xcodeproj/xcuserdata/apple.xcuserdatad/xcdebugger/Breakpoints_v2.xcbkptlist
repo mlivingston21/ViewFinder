@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewFinder/AddPhotoViewController.swift"
-            timestampString = "586189380.259575"
+            timestampString = "586194347.536097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2"
@@ -22,15 +22,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewFinder/AddPhotoViewController.swift"
-            timestampString = "586189380.2609071"
+            timestampString = "586194347.536659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "takeSelfieTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -38,11 +38,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewFinder/AddPhotoViewController.swift"
-            timestampString = "586189506.40829"
+            timestampString = "586194347.536773"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
@@ -51,14 +51,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ViewFinder.AddPhotoViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ViewFinder.AddPhotoViewController"
                   moduleName = "ViewFinder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/ViewFinder/ViewFinder/AddPhotoViewController.swift"
-                  timestampString = "586189506.476038"
+                  timestampString = "586194070.569664"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -66,29 +66,29 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ViewFinder.AddPhotoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ViewFinder.AddPhotoViewController"
                   moduleName = "ViewFinder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/ViewFinder/ViewFinder/AddPhotoViewController.swift"
-                  timestampString = "586189506.479638"
+                  timestampString = "586194070.5726629"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
-                  offsetFromSymbolStart = "164">
+                  offsetFromSymbolStart = "185">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ViewFinder.AddPhotoViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ViewFinder.AddPhotoViewController&gt;"
                   moduleName = "ViewFinder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/ViewFinder/ViewFinder/AddPhotoViewController.swift"
-                  timestampString = "586189506.483658"
+                  timestampString = "586194070.575424"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -96,14 +96,14 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ViewFinder.AddPhotoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ViewFinder.AddPhotoViewController&gt;"
                   moduleName = "ViewFinder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/ViewFinder/ViewFinder/AddPhotoViewController.swift"
-                  timestampString = "586189506.487402"
+                  timestampString = "586194070.5792691"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -111,14 +111,14 @@
                   offsetFromSymbolStart = "98">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ViewFinder.AddPhotoViewController.__deallocating_deinit"
                   moduleName = "ViewFinder"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/apple/Desktop/ViewFinder/ViewFinder/AddPhotoViewController.swift"
-                  timestampString = "586189506.491289"
+                  timestampString = "586194070.5821739"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
