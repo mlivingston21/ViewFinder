@@ -56,9 +56,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6M-eN-VTG">
-                                <rect key="frame" x="288" y="508" width="54" height="30"/>
+                                <rect key="frame" x="278" y="508" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Camera"/>
+                                <state key="normal" title="Take Selfie"/>
+                                <connections>
+                                    <action selector="takeSelfieTapped:" destination="O8B-D1-eB2" eventType="touchUpInside" id="pYA-6I-z9c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RtX-ja-sPw">
                                 <rect key="frame" x="190" y="341" width="34" height="30"/>

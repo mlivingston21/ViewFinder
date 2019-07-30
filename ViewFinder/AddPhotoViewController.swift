@@ -11,6 +11,7 @@ import UIKit
 class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     var imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
@@ -20,8 +21,12 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
             imagePicker.sourceType = .camera
             
             present(imagePicker, animated: true, completion: nil)
-        }
-
+       imagePicker.sourceType = .photoLibrary
+            
+            present(imagePicker, animated: true, completion: nil)
+   
+    }
+    
         // Do any additional setup after loading the view.
     
     
